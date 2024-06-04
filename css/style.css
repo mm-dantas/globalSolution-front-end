@@ -47,7 +47,7 @@ html {
     font-style: normal;
 }
 
-.fas { 
+.menu .fas { 
     color: #000;
     margin-left: 20px;
 }
@@ -225,4 +225,79 @@ hr{
 .dado h5{
     font-family: var(--font-terciaria);
     font-size: 15px;
+}
+
+.section-publico-impactado{
+    min-height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-publico-impactado article{
+    margin: 50px 0;
+    max-width: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.section-publico-impactado article > h1{
+    font-size: 35px;
+    width: 100%;
+    font-family: var(--font-secundaria);
+    text-align: center;
+}
+
+.section-publico-impactado article > p{
+    width: 100%;
+    padding: 0 10%;
+    text-align: center;
+    font-family: var(--font-primaria);
+}
+
+.section-publico-impactado__box{
+    margin-top: 50px;
+    height: 350px;
+    width: 450px;
+    position: relative;
+}
+
+.section-publico-impactado article > img{
+    margin-top: 50px;
+    border-radius: 10px;
+    height: 350px;
+    width: 450px;
+}
+
+.section-publico-impactado__box > h2{
+    font-family: var(--font-terciaria);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.section-publico-impactado__box > p{
+    margin-top: 20px;
+    font-family: var(--font-primaria);
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.section-publico-impactado__box > button{
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    border: 0;
+    background-color: var(--color-azul);
+    border-radius: 500px;
+    color: white;
+    font-family: var(--font-primaria);
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
 }
