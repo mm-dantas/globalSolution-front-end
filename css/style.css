@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
     --font-primaria: "Roboto", sans-serif;
     --font-secundaria: "Montserrat", sans-serif;
+    --font-terciaria: "Roboto Condensed", sans-serif;
+    --color-azul: rgb(36, 57, 246);
   }
 
 *{
@@ -130,5 +132,97 @@ html {
 .section-objetivos{
     height: 100vh;
     background-image: url(../sets/background-gray.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.section-objetivos article{
+    max-width: 60vw;
+}
+
+.box-objetivos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.objetivo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 105px;
+    width: 320px;
+}
+
+.objetivo h4{
+    font-family: var(--font-primaria);
+    color: var(--color-azul)
+}
+
+.objetivo p{
+    font-family: var(--font-primaria);
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.objetivo-maior{
+    margin-top: 80px;
+    width: 100%;
+    height: 50vh;
+    /* border: #000 1px solid; */
+    overflow: hidden;
+    display: flex;
+}
+
+.objetivo-maior img{
+    width: 46%; 
+    height: 100%;
+    border-radius: 10px;
+}
+
+.objetivo-maior__texto{
+    height: 100%;
+    margin-left: 20px;
+}
+
+.objetivo-maior__titulo{
+    font-family: var(--font-terciaria);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.azul{
+    color: var(--color-azul)
+}
+
+.objetivo-maior__texto p{
+    margin-top: 10px;
+    font-family: var(--font-primaria);
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+hr{
+    margin: 15px 0;
+    border: none;            
+    border-top: 5px solid var(--color-azul); 
+}
+
+.dado-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.dado {
+    margin-top: 10px;
+}
+
+.dado h5{
+    font-family: var(--font-terciaria);
+    font-size: 15px;
+}
