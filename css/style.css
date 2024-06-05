@@ -54,7 +54,7 @@ html {
 
 .primeira-section{
     height: 100vh;
-    background-image: url(../sets/ia-no-oceano.jpg);
+    background-image: url(../sets/praia3.jpg);
     background-size: cover;
 }
 
@@ -340,7 +340,7 @@ html {
 
 .section-beneficios__box-images{
     display: flex;
-    height: 30vh;
+    height: 220px;
     max-width: 85vw;
     overflow: hidden;
     border-radius: 10px;
