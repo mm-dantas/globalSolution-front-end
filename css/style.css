@@ -206,7 +206,7 @@ html {
     text-align: justify;
 }
 
-hr{
+.objetivo-maior__texto > hr{
     margin: 15px 0;
     border: none;            
     border-top: 5px solid var(--color-azul); 
@@ -300,4 +300,62 @@ hr{
     align-items: center;
     gap: 10px;
     cursor: pointer;
+}
+
+.section-beneficios{
+    min-height: 120vh;
+    background-image: url(../sets/desenhoBackground.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.section-beneficios > article{
+    max-width: 85vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.section-beneficios .beneficio{
+    width: 400px;
+}
+
+.section-beneficios .beneficio h2{
+    font-family: var(--font-terciaria);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.section-beneficios .beneficio p{
+    margin-top: 20px;
+    font-family: var(--font-primaria);
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.section-beneficios__box-images{
+    display: flex;
+    height: 30vh;
+    max-width: 85vw;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.section-beneficios__box-images hr{
+    width: 5px;
+    background-color: black;
+}
+
+.section-beneficios__box-images div{
+    max-width: 33.33%;
+}
+
+.section-beneficios__box-images div img{
+    max-width: 100%;
+    height: auto;
 }
