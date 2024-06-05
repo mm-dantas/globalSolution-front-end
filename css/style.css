@@ -5,6 +5,9 @@
     --font-secundaria: "Montserrat", sans-serif;
     --font-terciaria: "Roboto Condensed", sans-serif;
     --color-azul: rgb(36, 57, 246);
+    --color-white: rgb(241, 249, 255);
+    --color-black: #363738;
+    --backgroun-menu:rgba(255, 255, 255, 0.685);
   }
 
 *{
@@ -20,7 +23,7 @@ html {
     width: 100vw;
     height: 11vh;
     display: flex;
-    background-color: rgba(255, 255, 255, 0.685);
+    background-color: var(--backgroun-menu);
     justify-content:flex-start;
     align-items: center;
     gap: 123px;
@@ -40,7 +43,7 @@ html {
 
 .menu__links__link{
     font-size: 10px;
-    color: black;
+    color: var(--color-black);
     text-decoration: none;
     font-family: var(--font-primaria);
     font-weight: 700;
@@ -48,7 +51,7 @@ html {
 }
 
 .menu .fas { 
-    color: #000;
+    color: var(--color-black);
     margin-left: 20px;
 }
 
@@ -171,7 +174,6 @@ html {
     margin-top: 80px;
     width: 100%;
     height: 50vh;
-    /* border: #000 1px solid; */
     overflow: hidden;
     display: flex;
 }
@@ -292,7 +294,7 @@ html {
     border: 0;
     background-color: var(--color-azul);
     border-radius: 500px;
-    color: white;
+    color: var(--color-white);
     font-family: var(--font-primaria);
     font-size: 20px;
     font-weight: 600;
@@ -348,7 +350,7 @@ html {
 
 .section-beneficios__box-images hr{
     width: 5px;
-    background-color: black;
+    background-color: var(--color-black);
 }
 
 .section-beneficios__box-images div{
@@ -358,4 +360,94 @@ html {
 .section-beneficios__box-images div img{
     max-width: 100%;
     height: auto;
+}
+
+.box-contact-us{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.box-contact-us h1{
+    font-family: var(--font-terciaria);
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 25vw;
+}
+
+.box-contact-us hr{
+    width: 270px;
+    height: 2.5px;
+    background-color: var(--color-azul);
+    margin-left: 25vw;
+}
+
+.box-informacoes{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color-black);
+}
+
+.nome-principal{
+    font-family: var(--font-terciaria);
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.box-informacoes > div{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    color: var(--color-white);
+}
+
+.box-informacoes > div > h5{
+    font-family: var(--font-terciaria);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+} 
+
+.box-informacoes > div > a{
+    position: relative;
+    font-family: var(--font-primaria);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.box-informacoes > div > a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-white);
+    transition: width 1s ease;
+  }
+
+.box-informacoes > div > a:hover {
+    color: rgb(140, 147, 151);
+}
+
+.box-informacoes > div > a:hover::after {
+    width: 70%;
+}
+
+.box-informacoes > div:first-of-type {
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer{
+    width: 200px;
+    height: 200px;
 }
