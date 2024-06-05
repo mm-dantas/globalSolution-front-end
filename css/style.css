@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Orbitron:wght@400..900&display=swap');
 
 :root {
     --font-primaria: "Roboto", sans-serif;
@@ -392,9 +392,13 @@ html {
 }
 
 .nome-principal{
-    font-family: var(--font-terciaria);
-    font-size: 50px;
-    font-weight: 400;
+    font-family: "Orbitron", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.nome-principal span{
+    display: block;
 }
 
 .box-informacoes > div{
@@ -439,7 +443,7 @@ html {
 }
 
 .box-informacoes > div > a:hover::after {
-    width: 70%;
+    width: 65%;
 }
 
 .box-informacoes > div:first-of-type {
