@@ -22,7 +22,8 @@ login.addEventListener('click', () => {
     senha = prompt('Agora digite sua senha');
 
     if (usuario == "admin" && senha == "admin") {
-        alert('Login com sucesso!')
+        alert('Login com sucesso! Bem vindo!')
+        login.textContent = "Usuário: admin"
     } else {
         alert('Usuario ou senha incorretos')
     }
