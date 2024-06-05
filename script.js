@@ -16,3 +16,14 @@ pages.addEventListener('click', () => {
 blog.addEventListener('click', () => {
     alert('Em construção');
 })
+
+login.addEventListener('click', () => {
+    usuario = prompt('Digite seu login');
+    senha = prompt('Agora digite sua senha');
+
+    if (usuario == "admin" && senha == "admin") {
+        alert('Login com sucesso!')
+    } else {
+        alert('Usuario ou senha incorretos')
+    }
+})
