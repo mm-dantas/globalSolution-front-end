@@ -383,7 +383,7 @@ html {
 }
 
 .section-como-a-solucao-ajuda > p{
-    font-family: var();
+    font-family: var(--font-primaria);
     font-size: 15px;
     text-align: center;
     line-height: 22px;
