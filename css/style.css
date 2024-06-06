@@ -358,7 +358,7 @@ html {
 }
 
 .container-solucao{
-    max-width: 80vw;
+    max-width: 81vw;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
