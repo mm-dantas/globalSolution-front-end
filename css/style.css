@@ -158,6 +158,7 @@ html {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 70vw;
     gap: 20px;
 }
 
@@ -356,16 +357,8 @@ html {
     display: block;
 }
 
-.titulo-funcionamento-solucao > p{
-    margin-top: 20px;
-    font-family: var(--font-primaria);
-    font-size: 15px;
-    line-height: 20px;
-}
-
 .container-solucao{
-    max-width: 70vw;
-    height: 400px;
+    max-width: 80vw;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
