@@ -7,7 +7,8 @@
     --color-azul: rgb(36, 57, 246);
     --color-white: rgb(241, 249, 255);
     --color-black: #363738;
-    --backgroun-menu:rgba(255, 255, 255, 0.685);
+    --background-menu:rgba(255, 255, 255, 0.685);
+    --background-containers:rgb(233, 237, 239);
   }
 
 *{
@@ -23,7 +24,7 @@ html {
     width: 100vw;
     height: 11vh;
     display: flex;
-    background-color: var(--backgroun-menu);
+    background-color: var(--background-menu);
     justify-content:flex-start;
     align-items: center;
     gap: 123px;
@@ -360,6 +361,77 @@ html {
 .section-beneficios__box-images div img{
     max-width: 100%;
     height: auto;
+}
+
+.section-como-a-solucao-ajuda{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.titulo-funcionamento-solucao{
+    font-family: var(--font-terciaria);
+    font-size: 50px;
+    text-align: center;
+}
+
+.titulo-funcionamento-solucao span{
+    display: block;
+}
+
+.section-como-a-solucao-ajuda > p{
+    font-family: var();
+    font-size: 15px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.section-como-a-solucao-ajuda > p > span{
+    display: block;
+}
+
+.titulo-funcionamento-solucao > p{
+    margin-top: 20px;
+    font-family: var(--font-primaria);
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.container-solucao{
+    max-width: 70vw;
+    height: 48vh;
+    display: flex;
+    gap: 30px;
+}
+
+.container-solucao__imagem{
+    width: 700px;
+    border-radius: 20px;
+}
+
+.container-solucao__textos{
+    width: 250px;
+    padding: 40px 30px;
+    background-color: var(--background-containers);
+    border-radius: 16px;
+}
+
+.container-solucao__textos > h2{
+    font-family: var(--font-terciaria);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.container-solucao__textos > p{
+    margin-top: 20px;
+    font-family: var(--font-primaria);
+    font-size: 13px;
+    line-height: 20px;
+    text-align: justify;
 }
 
 .box-contact-us{
