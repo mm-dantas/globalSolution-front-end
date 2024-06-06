@@ -52,9 +52,10 @@ html {
     margin-left: 20px;
 }
 
-.primeira-section{
-    height: 100vh;
-    background-image: url(../sets/ia-no-oceano.jpg);
+.primeira-section img{
+    height: 100%;
+    width: 100%;
+   
     background-size: cover;
 }
 
