@@ -253,13 +253,6 @@ html {
     text-align: center;
 }
 
-.section-publico-impactado article > p{
-    width: 100%;
-    padding: 0 10%;
-    text-align: center;
-    font-family: var(--font-primaria);
-}
-
 .section-publico-impactado__box{
     margin-top: 50px;
     height: 350px;
@@ -382,17 +375,6 @@ html {
     display: block;
 }
 
-.section-como-a-solucao-ajuda > p{
-    font-family: var(--font-primaria);
-    font-size: 15px;
-    text-align: center;
-    line-height: 22px;
-}
-
-.section-como-a-solucao-ajuda > p > span{
-    display: block;
-}
-
 .titulo-funcionamento-solucao > p{
     margin-top: 20px;
     font-family: var(--font-primaria);
@@ -402,7 +384,7 @@ html {
 
 .container-solucao{
     max-width: 70vw;
-    height: 480px;
+    height: 400px;
     display: flex;
     gap: 30px;
 }
