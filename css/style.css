@@ -402,7 +402,7 @@ html {
 
 .container-solucao{
     max-width: 70vw;
-    height: 48vh;
+    height: 480px;
     display: flex;
     gap: 30px;
 }
