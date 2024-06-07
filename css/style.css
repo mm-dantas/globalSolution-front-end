@@ -13,7 +13,8 @@
 
 *{
     margin: 0;
-    padding: 0;
+    padding: 0; 
+      
 }
 
 html {
@@ -51,9 +52,14 @@ html {
     font-style: normal;
 }
 
-.primeira-section{
-    height: 100vh;
-    background-image: url(../sets/praia3.jpg);
+.menu .fas { 
+    color: #000;
+    margin-left: 20px;
+}
+
+.primeira-section img{
+    height: 100%;
+    width: 100%;
     background-size: cover;
 }
 
@@ -478,4 +484,37 @@ html {
 .logo-footer{
     width: 200px;
     height: 200px;
+}
+.carousel {
+  position: relative;
+  width: 100%; 
+  overflow: hidden;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+  width: 100%; 
+  height: auto; 
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#prevBtn {
+  left: 0;
+}
+
+#nextBtn {
+  right: 0;
 }
