@@ -305,7 +305,7 @@ hr{
 
 .carousel {
   position: relative;
-  width: 100%; /* Ou a largura desejada */
+  width: 100%; 
   overflow: hidden;
 }
 
@@ -315,8 +315,8 @@ hr{
 }
 
 .carousel-slide {
-  width: 100%; /* Ajuste a largura conforme necessário */
-  height: auto; /* Mantém a proporção original da imagem */
+  width: 100%; 
+  height: auto; 
 }
 
 button {
