@@ -9,7 +9,8 @@
 
 *{
     margin: 0;
-    padding: 0;
+    padding: 0; 
+      
 }
 
 html {
@@ -300,4 +301,38 @@ hr{
     align-items: center;
     gap: 10px;
     cursor: pointer;
+}
+
+.carousel {
+  position: relative;
+  width: 100%; /* Ou a largura desejada */
+  overflow: hidden;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+  width: 100%; /* Ajuste a largura conforme necessário */
+  height: auto; /* Mantém a proporção original da imagem */
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#prevBtn {
+  left: 0;
+}
+
+#nextBtn {
+  right: 0;
 }
