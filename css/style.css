@@ -51,11 +51,6 @@ html {
     font-style: normal;
 }
 
-.menu .fas { 
-    color: var(--color-black);
-    margin-left: 20px;
-}
-
 .primeira-section{
     height: 100vh;
     background-image: url(../sets/praia3.jpg);
